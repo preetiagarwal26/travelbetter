@@ -44,6 +44,8 @@ Our idea is make people aware of the carbon impact of their transportation choic
 ## The architecture
 
 ![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Architecture](TravelBetterArchitecture.jpg)
+![Sequence Diagram](TravelBetterArchitecture-2.jpg)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
