@@ -56,8 +56,7 @@ Our solution is to reward people for making better choices when they commute. Th
 
 ## Long description
 
-[More detail is available here]  https://docs.google.com/presentation/d/1A8qwys_OO4FYimK5j3oLYJEFMU40bhonQAuYsutYp1A/edit#slide=id.p
-https://docs.google.com/document/d/1FS9JgiJnzqeq37P7SOzykA6unKFmfhaZGWISB468fQg/edit
+[More detail is available here]  
 
 ## Project roadmap
 
