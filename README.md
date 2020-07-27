@@ -27,15 +27,17 @@ A basic GitHub repository example for Call for Code submissions and those projec
 
 ### What's the problem?
 
-Global warming refers to the steady temperature rise on our earth. Both land and oceans are warmer now than they were when record-keeping began, in 1880. The U.S. Energy Information Administration states that greenhouse gases are gases that keep heat in the earth’s atmosphere. Although greenhouse gases do occur naturally, human activity contributes a great deal to greenhouse gas emissions. Your carbon footprint — or your impact on the environment — measures the greenhouse gases that you are responsible for creating. Common activities like using electricity and driving a car emit those gases. Usually, the bulk of an individual’s carbon footprint will come from transportation, housing, and food.
+Global warming refers to the steady temperature rise on our earth. Both land and oceans are warmer now than they were when record-keeping began, in 1880. The U.S. Energy Information Administration states that greenhouse gases are gases that keep heat in the earth’s atmosphere. Although greenhouse gases do occur naturally, human activity contributes a great deal to greenhouse gas emissions. Your carbon footprint — or your impact on the environment — measures the greenhouse gases that you are responsible for creating. Common activities like using electricity and driving a car emit those gases. Usually, the bulk of an individual’s carbon footprint will come from transportation, housing, and food. OR:
+Your carbon footprint — or your impact on the environment — measures the greenhouse gases that you are responsible for creating. Common activities like using electricity and driving a car emit those gases. Existing programs to help guide people in reducing their carbon footprint are cumbersome and unrewarding for a majority of people. 
 
 ### How can technology help?
 
-While scientists, environmentalists are working on building solutions to reduce global warming, technologists can build solutions to make people more carbon aware and provide simple and easy ways to reduce it.
+While scientists and environmentalists are working on building solutions to reduce global warming, technologists can build solutions to make people more carbon aware and provide simple and easy ways to reduce it. Technology can motivate people to make better choices in order to reduce their personal carbon footprint. 
 
 ### The idea
 
-Our idea is make people aware of the carbon impact of their transportation choices, provide greener alternatives, and offer rewards for choosing more environmentally friendly options.
+Our idea is make people aware of the carbon impact of their transportation choices, provide greener alternatives, and offer rewards for choosing more environmentally friendly options. OR:
+Our solution is to reward people for making better choices when they commute. The simplicity will entice more people to make green choices and, in turn, produce a positive impact on an individual’s carbon footprint. 
 
 ## Demo video
 
@@ -54,7 +56,7 @@ Our idea is make people aware of the carbon impact of their transportation choic
 
 ## Long description
 
-[More detail is available here](DESCRIPTION.md)
+[More detail is available here]  https://docs.google.com/presentation/d/1A8qwys_OO4FYimK5j3oLYJEFMU40bhonQAuYsutYp1A/edit#slide=id.p
 
 ## Project roadmap
 
