@@ -45,14 +45,13 @@ Our solution is to reward people for making better choices when they commute. Th
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
 ![Architecture](TravelBetterArchitecture.jpg)
 ![Sequence Diagram](TravelBetterArchitecture-2.jpg)
 
-1. The user navigates to the site and uploads a video file.
-2. Watson Speech to Text processes the audio and extracts the text.
-3. Watson Translation (optionally) can translate the text to the desired language.
-4. The app stores the translated text as a document within Object Storage.
+1. The user opens app on ios device. Home page loads with an option to search transportation between **to** and **from** location.
+2. App will track transportaion option used.
+3. Reward user for choosing environment friendly transportation uses.
+4. User's activity history will be stored in couchDB on Cloudant.
 
 ## Long description
 
@@ -146,7 +145,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Joel Conybear** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lauren Colalillo**
+* **Mutugi**
+* **Preeti Gupta**
+* **Rakib Shahriar**
+
 
 See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
