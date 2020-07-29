@@ -74,9 +74,12 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+# If you don't have expo-cli yet, get it
+npm i -g expo-cli
+# If you don't have react-native-cli yet, get it
+npm i -g react-native-cli
+# This is a shortcut to skip the UI for picking the template
+expo init --template bare-minimum
 ```
 
 ### Installing
