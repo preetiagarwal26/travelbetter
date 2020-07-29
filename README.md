@@ -11,6 +11,7 @@ A basic GitHub repository example for Call for Code submissions and those projec
 1. [Short description](#short-description)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
+1. [Sequence Diagram](#sequence-diagram)
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
@@ -46,6 +47,8 @@ Our solution is to reward people for making better choices when they commute. Th
 ## The architecture
 
 ![Architecture](architecture.JPG)
+
+## Sequence Diagram
 ![Sequence Diagram](sequence.JPG)
 
 1. The user opens app on ios device. Home page loads with an option to search transportation between **to** and **from** location.
