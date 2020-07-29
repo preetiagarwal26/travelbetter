@@ -25,6 +25,7 @@ A basic GitHub repository example for Call for Code submissions and those projec
 1. [Acknowledgments](#acknowledgments)
 
 ## Short description
+Application to easily motivate and reward people for making greener transportation choices. 
 
 ### What's the problem?
 
