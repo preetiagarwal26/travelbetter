@@ -66,48 +66,63 @@ Our solution is to reward people for making better choices when they commute. Th
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Setting up the development environment
 
-What things you need to install the software and how to install them
+Please run the following commands from your computer's terminal/powershell.
 
 ```bash
+# Check your Node.js installation. If you do not have Node.js, please install it from https://nodejs.org/en/download/
+node -v
 # If you don't have expo-cli yet, get it
 npm i -g expo-cli
 # If you don't have react-native-cli yet, get it
 npm i -g react-native-cli
-# This is a shortcut to skip the UI for picking the template
-expo init --template bare-minimum
 ```
+Install Visual Studio Code IDE to inspect and run the code. You can find more detailed instruction from here: https://www.youtube.com/watch?v=0-S5a0eXPoc ()
 
-### Installing
+### Get your own Google API Key
 
-A step by step series of examples that tell you how to get a development env running
+* Travel-Better application uses 6 APIs related to Google Maps services. To pursue API access, please get your own Google API key. 
+* To pursue a Google API key, please visit: https://console.developers.google.com/. In case you are unable to do it, you can request us for key through email: shahriar025@gmail.com
+* For more information please visit: https://developers.google.com/maps/gmp-get-started
 
-Say what the step will be, for example
+The app requires the following APIs to be activated: 
+**
+**
+**
+**
+**
+**
 
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
+### Installing the app codebase
+
+Clone this repository and open the directory in VSCocde as a react-native project. Open Terminal from the menu of VSCode. In the terminal interface, please run the following commands (on the project root directory). 
+
 ```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
+# Initiate the project as an expo compatible react-native project
+expo init
+# install all dependecy 
+yarn
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Testing the Application on iOS/Android
 
-Explain how to run the automated tests for this system
+Run the following command to build and start the app. 
 
-### Break down into end to end tests
+```
+# Start the app using Metro server. (Learn Metro Server: https://docs.expo.io/workflow/how-expo-works/)
+expo start
+```
 
+There are two methods to test the app. Firstly, using installed simulator on your computer. Secondly, using Expo app on your iOS/Android device. We recommend the latter for the ease of use. For that, you have to install Expo from Appstore/Google Play Store. 
+
+The latest command will run the project and will open a new tab in your browser called Metro Bundler. Metro Bundler interface will show a barcode on your screen. Scan the barcode with your camera/other app. Scanned barcode will pop a notification badge, clicking that will switch you to the App hosted in Expo. 
+
+### Testing the API using Swagger
+
+[PREETI's WORK]
 Explain what these tests test and why, if you were using something like `mocha` for instance
 
 ```bash
