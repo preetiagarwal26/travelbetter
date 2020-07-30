@@ -16,7 +16,6 @@ A basic GitHub repository example for Call for Code submissions and those projec
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
 1. [Built with](#built-with)
-1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
 1. [Acknowledgments](#acknowledgments)
@@ -155,17 +154,9 @@ npx eslint sample-file.js
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 * [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
 * [React Native](https://reactnative.dev/) - The ios/android app framework used
-* [Google APIs](https://developers.google.com/apis-explorer)
+* [Google APIs](https://developers.google.com/apis-explorer) - The location, direction services used
 * [Maven](https://maven.apache.org/) - Dependency management
 * [Springboot](https://start.spring.io/) - Used to generate backend user , activity CRUD APIs
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Authors
 
@@ -181,4 +172,4 @@ This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE)
 
 ## Acknowledgments
 
-* Thanks to IBM Mentors for helping us through **TravelBetter** journey. Special shout out to Jean-Georges Perrin, Shari Chiara for being available and resolving issues quickly.
+* Thanks to IBM Mentors for helping us through **TravelBetter** journey. Special shout out to **Jean-Georges Perrin**, **Shari Chiara** for being available and resolving issues quickly.
