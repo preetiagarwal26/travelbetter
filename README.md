@@ -47,7 +47,7 @@ Our solution is to reward people for making better choices when they commute. Th
 
 ## The architecture
 
-![Architecture](travel-better-revised-system-architecture.PNG)
+![Architecture](travel-better-revised-system-architecture.png)
 
 1. The user opens app on ios device. Home page loads with an option to search transportation between **to** and **from** location.
 2. App will track transportaion option used.
