@@ -49,9 +49,6 @@ Our solution is to reward people for making better choices when they commute. Th
 
 ![Architecture](architecture.JPG)
 
-## Sequence Diagram
-![Sequence Diagram](sequence.JPG)
-
 1. The user opens app on ios device. Home page loads with an option to search transportation between **to** and **from** location.
 2. App will track transportaion option used.
 3. Reward user for choosing environment friendly transportation uses.
