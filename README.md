@@ -11,14 +11,11 @@ A basic GitHub repository example for Call for Code submissions and those projec
 1. [Short description](#short-description)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
-1. [Sequence Diagram](#sequence-diagram)
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
-1. [Live demo](#live-demo)
 1. [Built with](#built-with)
-1. [Contributing](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
@@ -68,6 +65,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Setting up the development environment
 
+**Front End**
 Please run the following commands from your computer's terminal/powershell.
 
 ```bash
@@ -79,6 +77,15 @@ npm i -g expo-cli
 npm i -g react-native-cli
 ```
 Install Visual Studio Code IDE to inspect and run the code. You can find more detailed instruction from here: https://www.youtube.com/watch?v=0-S5a0eXPoc ()
+
+**Back End**
+Install maven from https://maven.apache.org/install.html
+
+Create account with IBM Cloud.
+
+Install IBM CLI (Refer to https://cloud.ibm.com/docs/cli?topic=cli-getting-started#overview)
+
+Provision a CouchDB instance using Cloudant (Refer to https://cloud.ibm.com/docs/Cloudant?topic=Cloudant-creating-an-ibm-cloudant-instance-on-ibm-cloud)
 
 ### Get your own Google API Key
 
@@ -98,6 +105,7 @@ The app requires the following Google APIs to be activated:
 
 Clone this repository and open the directory in VSCocde as a react-native project. Open Terminal from the menu of VSCode. In the terminal interface, please run the following commands (on the project root directory). 
 
+**Front End**
 ```
 # Initiate the project as an expo compatible react-native project
 expo init
@@ -106,6 +114,13 @@ yarn
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
+**Back End**
+Modify /user-module/src/main/resources/application.properties with your Cloundant instance details.
+
+Navigate to user-module and perform **mvn clean install**
+
+After clean build, run main class /user-module/src/main/java/com/callforcode/travelbetter/TravelBetterApplication.java
 
 ## Testing the Application on iOS/Android
 
@@ -122,14 +137,8 @@ The latest command will run the project and will open a new tab in your browser 
 
 ### Testing the API using Swagger
 
-[PREETI's WORK]
-Explain what these tests test and why, if you were using something like `mocha` for instance
+Access swagger using http://localhost:8080/swagger-ui.html , after back end application is up and running on local system.
 
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
 
 ### And coding style tests
 
@@ -141,16 +150,12 @@ npx eslint --init
 npx eslint sample-file.js
 ```
 
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
-
 ## Built with
 
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 * [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [React Native](https://reactnative.dev/) - The ios/android app framework used
+* [Google APIs](https://developers.google.com/apis-explorer)
 * [Maven](https://maven.apache.org/) - Dependency management
 * [Springboot](https://start.spring.io/) - Used to generate backend user , activity CRUD APIs
 
@@ -170,13 +175,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Preeti Gupta**
 * **Rakib Shahriar**
 
-
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Thanks to IBM Mentors for helping us through **TravelBetter** journey. Special shout out to Jean-Georges Perrin, Shari Chiara for being available and resolving issues quickly.
