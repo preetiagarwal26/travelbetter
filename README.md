@@ -86,13 +86,13 @@ Install Visual Studio Code IDE to inspect and run the code. You can find more de
 * To pursue a Google API key, please visit: https://console.developers.google.com/. In case you are unable to do it, you can request us for key through email: shahriar025@gmail.com
 * For more information please visit: https://developers.google.com/maps/gmp-get-started
 
-The app requires the following APIs to be activated: 
-**
-**
-**
-**
-**
-**
+The app requires the following Google APIs to be activated: 
+* Directions API
+* Geocoding API
+* Geolocation API
+* Maps SDK for iOS
+* Places API
+* Distance Matrix API
 
 ### Installing the app codebase
 
