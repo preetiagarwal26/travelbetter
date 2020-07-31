@@ -1,8 +1,6 @@
-## React Native project
+## React Native frontend
 
-### Setting up the development environment
-
-**Front End**
+### Setting up the environment
 Please run the following commands from your computer's terminal/powershell.
 
 ```bash
@@ -10,6 +8,7 @@ Please run the following commands from your computer's terminal/powershell.
 node -v
 # If you don't have expo-cli yet, get it
 npm i -g expo-cli
+```
 
 ### Get your own Google API Key
 
@@ -27,20 +26,24 @@ The app requires the following Google APIs to be activated:
 
 ### Installing the app codebase
 
-Clone this repository and open the directory your text editor.
+Clone this repository and open the directory in your favorite your text editor.
 
-Before running the app, open the `screens/TravelCenterScreen.tsx` and enter the Google API Key in the placeholder variable `GOOGLE_API_KEY`
+Before running the app, open the `screens/TravelCenterScreen.tsx` and replace the placeholder text in the `GOOGLE_API_KEY` variable with the Google API Key you have generated.
 
 Run the app, in your terminal run the following commands
+
+#### install all dependecies
 ```
-# install all dependecies
 yarn
+```
 
-# Start the application
+#### Start the application
+```
 yarn start
+```
 
-## Running the app on your device
+#### Running the app on your device
 You can run the application on your physical device or an emulator
-To run on your physical device, follow the instructions on this page: https://reactnative.dev/docs/running-on-device 
-To run the device using an emulator on follow the instructions here: https://reactnative.dev/docs/0.60/getting-started
+- To run on your physical device, follow the instructions on this page: https://reactnative.dev/docs/running-on-device 
+- To run the device using an emulator on follow the instructions here: https://reactnative.dev/docs/0.60/getting-started
 ```
