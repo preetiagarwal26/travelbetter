@@ -147,7 +147,7 @@ npx eslint sample-file.js
 
 * **Joel Conybear**
 * **Lauren Colalillo**
-* **Mutugi**
+* **Mutugi Mutuma**
 * **Preeti Gupta**
 * **Rakib Shahriar**
 
