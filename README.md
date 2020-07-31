@@ -41,7 +41,7 @@ Application to easily motivate and reward people for making greener transportati
 
 ## Project roadmap
 
-![Roadmap](roadmap.jpg)
+![Roadmap](roadmap.jpg) 
 
 ## Getting started
 
