@@ -123,6 +123,7 @@ The latest command will run the project and will open a new tab in your browser 
 
 Access swagger using http://localhost:8080/swagger-ui.html , after back end application is up and running on local system.
 
+Cloud swagger URL is https://travelbetter.mybluemix.net/swagger-ui.html. Please note this URL has limited availability and may expire by mid-Aug 2020.
 
 ### And coding style tests
 
