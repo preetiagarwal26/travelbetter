@@ -24,7 +24,7 @@ Application to easily motivate and reward people for making greener transportati
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video] https://www.youtube.com/watch?v=Biz8hGz83Mo 
 
 ## The architecture
 
